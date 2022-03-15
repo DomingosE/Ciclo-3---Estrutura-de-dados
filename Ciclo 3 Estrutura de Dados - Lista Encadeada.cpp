@@ -29,7 +29,7 @@ int main()
 		printf ("%d", fim -> x);
 		fim = fim -> proximo;
 	}
-	printf ("\nInforme o valor a ser excluído da lista:");
+	printf ("\nInforme o valor a ser excluÃ­do da lista:");
 	scanf ("%d", &a);
 	if (inicio -> x == a)
 	{
@@ -49,7 +49,7 @@ int main()
 			anterior->proximo=fim->proximo;
 			free(fim);
 		}
-		else printf ("\nNão existe esse valor na lista. Os valores existentes na lista são: ");	
+		else printf ("\nNÃ£o existe esse valor na lista. Os valores existentes na lista sÃ£o: ");	
 		}
 	fim=inicio;
 	while (fim -> proximo != NULL)
